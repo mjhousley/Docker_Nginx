@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
 <body>
 <p> Welcome to my nginx page within a Docker Container!</p>
 
-<p>The Date/Time is: <span id="datetime"></span></p>
+<p>The Date/Time is: <span id="datetime"></p>
 
 <script>
- var dt = new Date();
-document.getElementById("datetime").innerHTML = dt.toLocaleString(); 
+const d = new Date();
+let text = d.toLocaleString();
+document.getElementById("datetime").innerHTML = text;
 </script>
 
 <p> This Nginx container was created by Micah Housley.</p>
 <p> This container image was created at (UTC):</p>
+</body>
+</html>
+
+2021-12-31T01:15:39.401292231Z

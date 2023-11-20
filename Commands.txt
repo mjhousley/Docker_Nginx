@@ -8,7 +8,7 @@ docker inspect -f '{{.State.StartedAt}}' nginx >> index.html
 docker build -t my-nginx .
 
 #command to run my-nginx docker image
-docker run -d -p 8080:80 --name my-nginx my-nginx
+docker run -d -p 8080:80 --name my-ws my-ws
 
 #command to get aws account id number
 aws sts get-caller-identity

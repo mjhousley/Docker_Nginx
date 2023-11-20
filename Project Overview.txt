@@ -1,0 +1,7 @@
+Your team needs you to deploy a custom image quickly and write a quick script in a file to accomplish a task.
+
+Create your own image using Nginx and adding a file that will tell you the time of day the container has been deployed
+
+Deploy your container with port 8080 open
+
+Save your container data to the Elastic Container Registry!
